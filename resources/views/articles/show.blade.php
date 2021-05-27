@@ -44,7 +44,7 @@
             @if($article->tags_count)
                 <div class="article-content">
                     <div class="article-tags">
-                        <b>Tags:</b>
+                        <b>Теги:</b>
                         @foreach($article->tags as $tag)
                             <a href="{{ route('tags.show', [$tag->slug, $tag->id]) }}" class="btn btn-default btn-o btn-sm">{{ $tag->name }}</a>
                         @endforeach

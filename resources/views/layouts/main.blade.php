@@ -27,8 +27,8 @@
             <div class="searchfield bg-hed-six">
                 <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
                     <div class="row text-center margin-bottom-20">
-                        <h1 class="white">{{ trans('panel.site_title') }}</h1>
-                        <span class="nested">Знание мало нужно действия</span>
+                        <h1 class="white">Вся информация по договору купля продаж</h1>
+                        <span class="nested">Актуальные темы, полезные статьи, вопросы и ответы, файлы для скачивание</span>
                     </div>
                 </div>
             </div>

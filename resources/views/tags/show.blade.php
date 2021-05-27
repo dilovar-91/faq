@@ -10,12 +10,12 @@
                         <i class="fa fa-home"></i>
                     </a>
                 </li>
-                <li class="active">Tag: {{ $tag->name }}</li>
+                <li class="active">Тег: {{ $tag->name }}</li>
             </ol>
         </div>
 
         <div class="fb-heading">
-            <i class="fa fa-folder"></i> Tag: {{ $tag->name }}
+            <i class="fa fa-folder"></i> Тег: {{ $tag->name }}
             <span class="cat-count">({{ $tag->articles_count }})</span>
         </div>
         <hr class="style-three">

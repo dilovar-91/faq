@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.home')
 
 @section('content')
 <div class="col-md-8 padding-20">
@@ -35,7 +35,7 @@
                 @endforeach
             </div>
         </div>
-        
+
         {{ $categories->links('partials.pagination') }}
     </div>
 </div>

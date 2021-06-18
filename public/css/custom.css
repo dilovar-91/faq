@@ -106,3 +106,58 @@ table.dataTable thead .sorting_desc {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+.grid-filter.flex-column {
+    border: 1px solid rgba(0,0,0,0.07);
+    border-radius: 4px;
+}
+
+.grid-filter.flex-column,
+.grid-filter.flex-column li {
+    width: 100%;
+}
+
+.grid-filter.flex-column li a {
+    padding: 14px 20px;
+    font-size: 0.9375rem;
+    text-align: left;
+    border-left: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.grid-filter.flex-column li:first-child a {
+    border-radius: 4px 4px 0 0;
+}
+
+.grid-filter.flex-column li:last-child a {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+
+/* Search form */
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.bg-color, .bg-color #header-wrap, .h-bg-color:hover, .process-steps li.active a, .process-steps li.ui-tabs-active a, .sidenav > .ui-tabs-active > a, .sidenav > .ui-tabs-active > a:hover, .owl-carousel .owl-nav [class*=owl-]:hover, .widget-filter-links li.active-filter span, .page-item.active .page-link, .page-link:hover, .page-link:focus {
+    background-color: #F9BE79 !important;
+}
